@@ -1,4 +1,4 @@
-import { makeStyles, useTheme } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Container from "@material-ui/core/Container";
 
@@ -41,7 +41,6 @@ function App() {
   // };
   return (
     <div className={classes.root}>
-      <CssBaseline />
       <NavBar />
       <Breadcrumbs />
       <main className={classes.content}>
